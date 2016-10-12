@@ -337,7 +337,7 @@ flatten(array); // => [1, 2, 3]
 
 ## entriesで何か
 
-オブジェクをループ時に key と value のどちらも必要な場合は、`Object.values`メソッドを利用すると簡単です。
+オブジェクトをループする時に key と value のどちらも必要な場合は、`Object.entries`メソッドを利用すると簡単です。
 
 ```js
 var object = {
